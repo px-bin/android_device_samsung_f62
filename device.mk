@@ -35,6 +35,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/init.m62.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m62.rc
 
+# Disable Matlog
+TARGET_DISABLE_MATLOG := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
