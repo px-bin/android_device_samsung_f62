@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/init.m62.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.m62.rc
 
 # Disable Matlog
-TARGET_DISABLE_MATLOG := true
+TARGET_DISABLE_MATLOG := true 
 
 #Sign Builds
 -include vendor/lineage-priv/keys/keys.mk
