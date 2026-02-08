@@ -1,4 +1,11 @@
 <mixer>
+    <ctl name="ABOX PCM ext APCALL BUFFTYPE" value="0" />
+    <ctl name="ABOX ERAP info Mute Primary" value="0" />
+    <ctl name="ABOX Spk AmpL Power" value="0" />
+    <ctl name="ABOX Spk AmpR Power" value="0" />
+    <ctl name="ABOX Spk AmpL Switch" value="0" />
+    <ctl name="ABOX Spk AmpR Switch" value="0" />
+    
 	<!-- These paths are for Star with Exynos9820 -->
 
 	<!-- Board Device Connections -->
@@ -617,7 +624,8 @@
 		<ctl name="Mono PCM Source" value="DSP" />
 		<ctl name="Mono Boost Enable" value="Enabled" />
 		<ctl name="Mono AMP Enable Switch" value="1" />
-	</path>
+        <ctl name="ABOX Spk AmpL Power" value="1" />
+    </path>
 
 	<path name="dev-headset">
 		<ctl name="HPOUT2L Input 1" value="AIF1RX1" />
@@ -4009,7 +4017,7 @@
 
 	<path name="gain-recording-headphone-mic">
 		<ctl name="IN2L Volume" value="9" />
-		<ctl name="IN2L Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-recording-bt-sco-headset-in">
@@ -4061,8 +4069,8 @@
 	<path name="gain-camcorder-headphone-mic">
 		<ctl name="IN2L Volume" value="9" />
 		<ctl name="IN2R Volume" value="9" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-camcorder-usb-headset-mic">
@@ -4164,15 +4172,15 @@
 	<path name="gain-communication-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-communication-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-communication-gaming-speaker-mic">
@@ -4201,8 +4209,8 @@
 	<path name="gain-communication-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-communication-bt-sco-headset-in">
@@ -4221,8 +4229,8 @@
 	</path>
 
 	<path name="gain-samsung_voip_fmc-speaker-mic">
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-samsung_voip_fmc-dex-speaker-mic">
@@ -4236,7 +4244,7 @@
 	</path>
 
 	<path name="gain-samsung_voip_fmc-headphone-mic">
-		<ctl name="IN2L Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-samsung_voip_fmc-bt-sco-headset-in">
@@ -4252,15 +4260,15 @@
 	<path name="gain-wificall_nb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_nb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_nb-dex-speaker-mic">
@@ -4278,8 +4286,8 @@
 	<path name="gain-wificall_nb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_nb-bt-sco-headset-in">
@@ -4295,15 +4303,15 @@
 	<path name="gain-wificall_wb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_wb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_wb-dex-speaker-mic">
@@ -4321,8 +4329,8 @@
 	<path name="gain-wificall_wb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_wb-bt-sco-headset-in">
@@ -4338,15 +4346,15 @@
 	<path name="gain-wificall_evs-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_evs-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_evs-dex-speaker-mic">
@@ -4364,8 +4372,8 @@
 	<path name="gain-wificall_evs-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-wificall_evs-bt-sco-headset-in">
@@ -4381,15 +4389,15 @@
 	<path name="gain-video_call-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-video_call-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-video_call-dex-speaker-mic">
@@ -4407,8 +4415,8 @@
 	<path name="gain-video_call-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-video_call-bt-sco-headset-in">
@@ -4425,15 +4433,15 @@
 	<path name="gain-incall_nb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-incall_nb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-incall_nb-dex-speaker-mic">
@@ -4451,8 +4459,8 @@
 	<path name="gain-incall_nb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-incall_nb-bt-sco-headset-in">
@@ -4465,15 +4473,15 @@
 	<path name="gain-incall_wb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-incall_wb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-incall_wb-dex-speaker-mic">
@@ -4491,8 +4499,8 @@
 	<path name="gain-incall_wb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-incall_wb-bt-sco-headset-in">
@@ -4505,15 +4513,15 @@
 	<path name="gain-volte_cp_nb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_nb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_nb-dex-speaker-mic">
@@ -4531,8 +4539,8 @@
 	<path name="gain-volte_cp_nb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_nb-bt-sco-headset-in">
@@ -4545,15 +4553,15 @@
 	<path name="gain-volte_cp_wb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_wb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_wb-dex-speaker-mic">
@@ -4571,8 +4579,8 @@
 	<path name="gain-volte_cp_wb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_wb-bt-sco-headset-in">
@@ -4612,8 +4620,8 @@
 		<ctl name="EQ4 B3 Volume" value="12" />
 		<ctl name="EQ4 B4 Volume" value="1" />
 		<ctl name="EQ4 B5 Volume" value="0" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_evs-dex-speaker-mic">
@@ -4651,8 +4659,8 @@
 		<ctl name="EQ2 B3 Volume" value="12" />
 		<ctl name="EQ2 B4 Volume" value="0" />
 		<ctl name="EQ2 B5 Volume" value="0" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_cp_evs-bt-sco-headset-in">
@@ -4665,15 +4673,15 @@
 	<path name="gain-volte_vt_cp_nb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_nb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_nb-dex-speaker-mic">
@@ -4691,8 +4699,8 @@
 	<path name="gain-volte_vt_cp_nb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_nb-bt-sco-headset-in">
@@ -4705,15 +4713,15 @@
 	<path name="gain-volte_vt_cp_wb-handset-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_wb-speaker-mic">
 		<ctl name="IN2L Volume" value="12" />
 		<ctl name="IN2R Volume" value="12" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_wb-dex-speaker-mic">
@@ -4731,8 +4739,8 @@
 	<path name="gain-volte_vt_cp_wb-headphone-mic">
 		<ctl name="IN2L Volume" value="21" />
 		<ctl name="IN2R Volume" value="21" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_wb-bt-sco-headset-in">
@@ -4772,8 +4780,8 @@
 		<ctl name="EQ4 B3 Volume" value="12" />
 		<ctl name="EQ4 B4 Volume" value="1" />
 		<ctl name="EQ4 B5 Volume" value="0" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_evs-dex-speaker-mic">
@@ -4811,8 +4819,8 @@
 		<ctl name="EQ2 B3 Volume" value="12" />
 		<ctl name="EQ2 B4 Volume" value="0" />
 		<ctl name="EQ2 B5 Volume" value="0" />
-		<ctl name="IN2L Digital Volume" value="128" />
-		<ctl name="IN2R Digital Volume" value="128" />
+		<ctl name="IN2L Digital Volume" value="152" />
+		<ctl name="IN2R Digital Volume" value="152" />
 	</path>
 
 	<path name="gain-volte_vt_cp_evs-bt-sco-headset-in">
